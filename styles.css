@@ -5,8 +5,8 @@ body{
 
 section{
     width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh; 
+    overflow: auto;
     position: relative;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ section{
     color: #222227;
 }
 
-.navbar .nav-brand img{
+.navbar-brand img {
     max-height: 40px;
 }
 
@@ -49,7 +49,7 @@ section{
     width: 100%;
 }
 
-.navbar .navbar-toggle{
+.navbar .navbar-toggler{
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
