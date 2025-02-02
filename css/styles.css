@@ -55,6 +55,10 @@ section{
     box-shadow: none !important;
 }
 
+#toggle-menu {
+    display: none;
+}
+
 .navbar .toggle-btn {
     cursor: pointer;
     position: relative;
