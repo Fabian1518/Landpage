@@ -55,7 +55,7 @@ section{
     box-shadow: none !important;
 }
 
-.navbar .toggle-btn{
+.navbar .toggler-btn{
     cursor: pointer;
     position: relative;
     top: 5px;
@@ -66,7 +66,7 @@ section{
     display: none;
 }
 
-.navbar .navbar-toggler .toggle-btn .bar{
+.navbar .navbar-toggler .toggler-btn .bar{
     width: 25px;
     height: 3px;
     margin: 7px 0 7px auto;
@@ -74,15 +74,15 @@ section{
     background-color: #222227;
 }
 
-.navbar #toggle-menu:checked + label .toggle-btn .bar:nth-child(2){
+.navbar #toggler-menu:checked + label .toggle-btn .bar:nth-child(2){
     transform: translateX(50px);
     opacity: 0;
 }
 
-.navbar #toggle-menu:checked + label .toggle-btn .bar:nth-child(1){
+.navbar #toggler-menu:checked + label .toggle-btn .bar:nth-child(1){
     transform: translateY(12px) rotate(45deg);
 }
 
-.navbar #toggle-menu:checked + label .toggle-btn .bar:nth-child(3){
+.navbar #toggler-menu:checked + label .toggle-btn .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
 }
